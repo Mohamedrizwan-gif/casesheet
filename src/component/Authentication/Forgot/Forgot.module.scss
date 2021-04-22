@@ -1,0 +1,33 @@
+.form {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #b6b2b2;
+    padding: 10px;
+    width: 80%;
+}
+
+p.note {
+    color: grey;
+}
+
+.btn_overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px !important;
+    border-radius: 20px !important;
+    float: left;
+}
+
+@media (min-width: 550px) {
+    .form {
+        width: auto;
+    }
+}

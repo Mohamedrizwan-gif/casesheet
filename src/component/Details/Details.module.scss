@@ -1,0 +1,18 @@
+.table_container {
+    width: 100% !important;
+    margin: auto;
+}
+
+.btn {
+    margin: 5px !important;
+}
+
+.spin {
+    margin-left: 10px;
+}
+
+@media (min-width: 650px) {
+    .table_container {
+        width: 75% !important;
+    }
+}

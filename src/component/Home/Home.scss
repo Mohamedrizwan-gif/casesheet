@@ -1,0 +1,22 @@
+.table-data {
+    cursor: pointer;
+}
+
+.table-data-click {
+    background-color: #c5c2c2;
+}
+
+.fab {
+    margin: themespacing(2);
+}
+
+.absolute {
+    position: "absolute";
+    bottom: themespacing(2);
+    right: themespacing(3);
+}
+
+div.header_col {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,66 @@
+.pd_input {
+    width: 100% !important;
+}
+
+.c_input {
+    width: 100% !important;
+}
+
+.h_input {
+    width: 100% !important;
+}
+
+.inputlabel {
+    margin-bottom: 10px;
+}
+
+.patient {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.MuiFormControl-root {
+    width: 195px;
+}
+
+legend.MuiFormLabel-root {
+    margin-left: -73px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+textarea {
+    resize: none;
+}
+
+.personal {
+    width: 250px;
+}
+
+.btn {
+    margin: 5px !important;
+}
+
+@media (min-width:600px) {
+    .pd_input {
+        width: 230px !important;
+    }
+    .c_input {
+        width: 400px !important;
+    }
+    .h_input {
+        width: 480px !important;
+    }
+    .patient {
+        flex-direction: row;
+    }
+}
