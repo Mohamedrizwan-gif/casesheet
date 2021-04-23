@@ -15,8 +15,6 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-// import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-// import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import AddCircleOutlinedIcon from '@material-ui/icons/AddCircleOutlined';
 
@@ -47,11 +45,6 @@ function Row(props) {
   return (
     <>
       <TableRow hover className={`${classes.root} table-data`}>
-        {/* <TableCell>
-          <IconButton aria-label="expand row" size="small" onClick={() => onMoreInfo(row._id)}>
-            {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
-          </IconButton>
-        </TableCell> */}
         <TableCell component="th" scope="row" onClick={() => onMoreInfo(row._id)}>
           {row.patient.name}
         </TableCell>
@@ -160,7 +153,6 @@ function Home() {
                   <Table aria-label="collapsible table">
                     <TableHead>
                       <TableRow>
-                        {/* <TableCell/> */}
                         <TableCell>Name</TableCell>
                         <TableCell>Age</TableCell>
                         <TableCell>Gender</TableCell>
@@ -173,7 +165,6 @@ function Home() {
                     record.length === 0 
                     ?
                     <TableRow> 
-                      <TableCell/>
                       <TableCell/>
                       <TableCell/>
                       <TableCell style={{textAlign:'center'}}>No Record Found</TableCell>

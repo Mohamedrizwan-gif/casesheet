@@ -4,7 +4,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 function Spinner(props) {
     return (
         <>
-            <CircularProgress size={props.size} />
+            <CircularProgress style={{color:'white'}} size={props.size} />
         </>
     )
 }

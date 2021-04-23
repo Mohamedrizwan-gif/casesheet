@@ -9,7 +9,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-axios.defaults.baseURL = "https://casesheet.herokuapp.com";//"http://localhost:3100";
+axios.defaults.baseURL = "http://localhost:3100";//"https://casesheet.herokuapp.com";
 
 const store = createStore(Reducer);
 

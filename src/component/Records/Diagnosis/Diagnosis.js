@@ -181,7 +181,7 @@ function Diagnosis() {
                                 >
                                     Submit{spin ? 
                                                 <Spinner 
-                                                    style={{marginLeft:'5px', color:'white'}} 
+                                                    style={{marginLeft:'5px'}} 
                                                     size={20}
                                                 /> 
                                                 : null }
